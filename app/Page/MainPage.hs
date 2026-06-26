@@ -374,7 +374,7 @@ data Sponsor = Sponsor
 sponsor :: Sponsor -> View model action
 sponsor Sponsor{..} =
     a_
-        [href_ website, class_ "sponsor-link"]
+        [href_ website, class_ "sponsor-website"]
         [ li_
             []
             [ div_
